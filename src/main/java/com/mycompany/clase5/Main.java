@@ -20,14 +20,15 @@ public class Main {
         //Persona p = new Persona("12345678", "Antonio");
         //p.presentarse();
 
-        /*Docente d = new Docente("1104635501", "ALEX", "UNIDAD TECNICA Y TECNOLÓGICA");
+    //descomente el código para ver que hace        
+    Docente d = new Docente("1104635501", "ALEX", "UNIDAD TECNICA Y TECNOLÓGICA");
         d.presentarse();
         d.dar_clase();
         
         Estudiante e = new Estudiante("POIUYT", "ALKZAMM", "¿Soy una clase heredada?");
         e.presentarse();
         e.hacer_pregunta();
-    */   
+ 
 //HE HABILITADO LOS CUADRADOS  
         Cuadrado c = new Cuadrado(5);
         c.calcular_perimetro();
