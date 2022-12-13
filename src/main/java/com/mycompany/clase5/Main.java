@@ -27,11 +27,12 @@ public class Main {
         Estudiante e = new Estudiante("POIUYT", "ALKZAMM", "¿Soy una clase heredada?");
         e.presentarse();
         e.hacer_pregunta();
-         
+    */   
+//HE HABILITADO LOS CUADRADOS  
         Cuadrado c = new Cuadrado(5);
         c.calcular_perimetro();
         System.out.println("El perimetro del cuadrado es " + c.getPerimetro());
-*/
+
         Triangulo t = new Triangulo();
         int[] lados = {6, 6, 6};
         t.setLado(lados);
